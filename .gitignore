@@ -1,0 +1,10 @@
+.gradletasknamecache
+*.ipr
+*.iws
+build
+out
+.idea
+.gradle
+.terraform
+*.backup
+.DS_Store
