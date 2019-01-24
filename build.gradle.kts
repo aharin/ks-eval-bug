@@ -1,14 +1,14 @@
 description = "Kotlin  Script Eval bug"
 
+group = "co.wrisk"
+version = "1.0"
+
+
 plugins {
     //Tests fail when using kotlin 1.3.20 but pass in 1.3.11
     kotlin("jvm") version "1.3.20"
 //    kotlin("jvm") version "1.3.11"
 }
-
-
-group = "co.wrisk"
-version = "1.0"
 
 repositories {
     mavenCentral()

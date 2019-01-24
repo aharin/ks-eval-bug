@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-class LookupContextTest {
+class ScriptEngineFactoryTest {
 
     @Test
-    fun `script evaluation should return function defined in the script`() {
+    fun `kotlin script evaluation should support functional return types`() {
         val scriptEngine = KotlinJsr223JvmLocalScriptEngineFactory().scriptEngine
 
         val script = "{1 + 2}"
